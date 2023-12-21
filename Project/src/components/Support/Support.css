@@ -1,0 +1,68 @@
+/* Global styles */
+body {
+    background-image: url(https://sticomputer.com/newwebsite/wp-content/uploads/2017/06/support-bg.jpg);
+    background-position: center;
+    color: var(--clr-white);
+    opacity: 0.902;
+    font-family: sans-serif;
+  }
+  
+  /* Page container */
+  .support-page {
+    background-color: #201f1f;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    transition: var(--transition);
+  }
+  
+  /* Section titles */
+  h1,
+  h2 {
+    background-color: #333;
+    color: #8a490c;
+    text-align: center;
+    border-radius: 10px;
+    transition: var(--transition);
+  }
+  
+  /* Contact section */
+  .contact-section {
+    margin-bottom: 20px;
+    transition: var(--transition);
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    transition: var(--transition);
+  }
+  
+  .contact-list li {
+    margin-bottom: 5px;
+    transition: var(--transition);
+  }
+  
+  /* FAQ section */
+  .faq-section {
+    display: list-item;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transition: var(--transition);
+  }
+  
+  .faq-card {
+    background-color: #afaca2;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: var(--transition);
+  }
+  
+  .faq-card h3 {
+    color: #8a490c;
+    margin-bottom: 5px;
+    transition: var(--transition);
+  }
+  

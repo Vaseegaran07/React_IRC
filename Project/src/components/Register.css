@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&family=Gabarito&family=Hedvig+Letters+Serif:opsz@12..24&family=League+Spartan:wght@100;300;500&family=Red+Hat+Display:wght@700&display=swap');
+body {
+  margin: 0;
+  background-color: #8a490c;
+}
+
+div {
+  /* font-family: 'Duru Sans', sans-serif;
+  font-family: 'Gabarito', sans-serif; */
+  /* font-family: 'Hedvig Letters Serif', serif; */
+  font-family: 'League Spartan', sans-serif;
+  /* font-family: 'Red Hat Display', sans-serif; */
+}
+
+.register-container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 19px;
+}
+
+.container1 {
+  background: rgb(0, 0, 0);
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  max-width: 500px;
+  margin: 0 auto; 
+  border-radius: 19px;
+}
+
+.register-form1  {
+  background: rgb(0, 0, 0);
+  width: 100%;
+  padding: 40px;
+  padding-left: 5px;
+  height: 630px;
+  border-radius: 19px;
+}
+
+.heading{
+  font-family: 'Duru Sans', sans-serif;
+  background-color: rgb(20, 20, 20);
+  border-radius: 19px;
+  align-self: center;
+  text-align: center;
+  color: #F8D26B;
+}
+
+label {
+  text-align: left;
+  padding-left: 5px;
+  display: block;
+  margin-bottom: 8px;
+  color: #F8D26B;
+}
+
+.infocollection {
+  width: 100%; 
+  padding: 8px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background-color: #F8D26B;
+}
+
+img {
+  border-radius: 20px;
+  max-width: 100%; 
+  height: auto; 
+}
+
+button {
+  background-color: linear-gradient(to right, #8a490c, #F8D26B);
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  margin-left: 7px;
+  margin-top: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  font-family: 'League Spartan', sans-serif;
+
+}
+
+button:hover {
+  background-color: #a5580f;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 0px;
+    height: 0px; 
+  }
+}
+
+.linkbtn{
+  color: #F8D26B;
+  text-align: center;
+  padding-top: 20px;
+}
